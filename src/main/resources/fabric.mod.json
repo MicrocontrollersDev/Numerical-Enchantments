@@ -1,0 +1,46 @@
+{
+	"schemaVersion": 1,
+	"id": "numericalenchantments",
+	"version": "${version}",
+	"name": "Numerical Enchantments",
+	"description": "Converts roman numerals to arabic numbers.",
+	"authors": [
+		"Microcontrollers"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/numerical-enchantments",
+		"sources": "https://github.com/MicrocontrollersDev/Numerical-Enchantments",
+		"issues": "https://github.com/MicrocontrollersDev/Numerical-Enchantments/issues"
+	},
+	"license": "LGPL-3.0",
+	"icon": "assets/numericalenchantments/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"dev.microcontrollers.numericalenchantments.NumericalEnchantments"
+		],
+		"modmenu": [
+			"dev.microcontrollers.numericalenchantments.config.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"numericalenchantments.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15",
+		"minecraft": ">=1.20",
+		"java": ">=17",
+		"fabric-api": "*",
+		"yet_another_config_lib_v3": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.donate": "https://ko-fi.com/microcontrollers",
+				"modmenu.discord": "https://discord.gg/rejfv9kFJj",
+				"modmenu.modrinth": "https://modrinth.com/mod/numerical-enchantments"
+			},
+			"update_checker": true
+		}
+	}
+}
