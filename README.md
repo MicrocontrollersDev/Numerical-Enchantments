@@ -1,3 +1,5 @@
+# Moved to https://codeberg.org/MicrocontrollersDev/Numerical-Enchantments
+
 # Numerical Enchantments
 
 Converts roman numerals to arabic numbers in enchantment tooltips to make them easier to read at a glance! No resource pack required.
